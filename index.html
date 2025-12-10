@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Happy Birthday Boss IRVS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background -->
+  <div class="background"></div>
+
+  <!-- Gift Selection -->
+  <div id="gift-selection" class="container active">
+    <h2 class="title">🎉 Choose Your Birthday Gift 🎁</h2>
+    <div class="gifts-grid">
+      <div class="gift-box" data-type="wrong1">🎁</div>
+      <div class="gift-box" data-type="wrong2">🎁</div>
+      <div class="gift-box" data-type="correct">🎁</div>
+    </div>
+  </div>
+
+  <!-- Wrong Gift Screen -->
+  <div id="wrong-gift" class="container">
+    <img id="wrong-img" />
+    <p class="message">Wrong gift 😆 Try again!</p>
+    <button id="back-btn">Go Back</button>
+  </div>
+
+  <!-- Video Screen -->
+  <div id="video-screen" class="container">
+    <p class="reminder">🎧 Finish the video to get the reward 🎂</p>
+    <video id="birthday-video" preload="auto"></video>
+  </div>
+
+  <!-- Cake Screen -->
+  <div id="cake-screen" class="container">
+    <h2>🎂 Make a Wish 🎂</h2>
+    <div class="cake">
+      <div class="candle">
+        <div class="flame" id="flame"></div>
+      </div>
+      <div class="cake-body"></div>
+    </div>
+    <button id="blow-btn">Blow Candle 💨</button>
+  </div>
+
+  <!-- Final Screen -->
+  <div id="final-screen" class="container">
+    <h1 class="final-text">
+      🎉 HAPPY BIRTHDAY<br>
+      BOSS IRVS<br>
+      FROM BSIT EVENING CLASS OHAHAY 🎉
+    </h1>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
